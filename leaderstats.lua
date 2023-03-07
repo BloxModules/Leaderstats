@@ -1,8 +1,8 @@
-local Display = true
+local Display = true //display the leaderboard
 
-local allcash = {"Cash"}
+local allcash = {"Cash"} //all names of cash/points/etc
 
-local leaderstatsname = ""
+local leaderstatsname = "" //set a leaderstats name (does not work do not use)
 local module = require(script.Parent.leaderstatsmodule)
 
 if Display == false then
